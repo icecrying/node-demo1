@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇</title>
+    <style>
+        .food img{
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+<button id="begin">开始</button>
+<button id="pause">暂停</button>
+得分：<span>0</span>
+<script>
+    var obegin = document.getElementById('begin');
+    var opause = document.getElementById('pause');
+    var ospan = document.getElementsByTagName("span")[0];
+    function Map() {
+        this.width = 600;
+        this.height = 400;
+        this.position = 'relative';
+        this.bgColor = '#ccc';
+        this._map = null;
+        this._idName = 'map';
+    }
+    Map.prototype.init = function () {
+        this._map = document.createElement('div');
+        this._map.id = this._idName;
+        this._map.style.width = this.width+'px';
+        this._map.style.height = this.height+'px';
+        this._map.style.position = this.position;
+        this._map.style.backgroundColor = this.bgColor;
+        document.body.appendChild(this._map);
+    };
+    function Food() {
+        this.width = 20;
+        this.height = 20;
+        this.position = 'absolute';
+        this._food = null;
+        this._className = 'food';
+        this._map = document.getElementById('map');
+        this.x = 0;
+        this.y = 0;
+    }
+    Food.prototype.init = function () {
+        if (this._food == null) {
+            this._food = document.createElement('div');
+            this._food.className = this._className;
+            this._food.innerHTML = '<img src="img/food.png" alt="food">';
+            this._food.style.width = this.width + "px";
+            this._food.style.height = this.height + "px";
+            this._food.style.position = this.position;
+            this._map.appendChild(this._food);
+        }
+        //给food设置位置，40和30为地图和食物宽高的倍数，就相当于把地图划分一个坐标，坐标每一格就是一个食物的宽高
+        this.x = Math.floor(Math.random()*30);
+        this.y = Math.floor(Math.random()*20);
+        this._food.style.left = this.x*this.width + "px";
+        this._food.style.top = this.y*this.height + "px";
+    };
+    function Snake() {
+        this.width = 20;
+        this.height = 20;
+        this.position = 'absolute';
+        this.direction = 'right';
+        this.num = 0;
+        this.timer = null;
+        this.map = document.getElementById('map');
+        this.body = [
+            //每一个数组代表一个单元格，即贪吃蛇的每一节
+            //数组[x轴坐标，y轴坐标，样式颜色，div]
+            [3,2,'red',null],
+            [2,2,'blue',null],
+            [1,2,'blue',null]
+        ];
+        this.settings = {
+        }
+    }
+    Snake.prototype.run = function (options) {
+        extend(this.settings,options);
+        var that = this;
+        if (this.data[this.settings.index] == undefined){
+            //1.创建贪吃蛇
+            this.show();
+            this.data[this.settings.index] = true;
+            //2.让贪吃蛇移动
+            this.timer=setInterval(function () {
+                that.move();
+            },150);
+            //控制贪吃蛇的方向
+            document.onkeydown = function (ev) {
+                var ev = ev || window.event;
+                that.setDirect(ev.keyCode)
+                // console.log(ev.keyCode)  找到键盘码
+            };
+        }
+    };
+    Snake.prototype.show = function () {
+        for (var i = 0; i < this.body.length; i++) {
+            if (this.body[i][3] == null) {
+                //给数组的下标为3的创建一个div
+                this.body[i][3] = document.createElement('div');
+                this.body[i][3].style.width = this.width + "px";
+                this.body[i][3].style.height = this.height + "px";
+                this.body[i][3].style.backgroundColor = this.body[i][2];
+                this.body[i][3].style.position = this.position;
+                this.map.appendChild(this.body[i][3]);
+            }
+            this.body[i][3].style.left = this.body[i][0] * 20 + "px";
+            this.body[i][3].style.top = this.body[i][1] * 20 + "px";
+        }
+    };
+    Snake.prototype.data = {
+
+    };
+    Snake.prototype.move = function () {
+        //贪吃蛇移动时，每一节蛇身都在重复前一节的位置，只需让后面蛇身的坐标覆盖前面蛇身的坐标，蛇首单独设置
+        //改变数组中x和y的值即可控制位置
+        var len = this.body.length;
+        //蛇节
+        for (var i = len - 1; i > 0; i--) {
+            this.body[i][0] = this.body[i-1][0];
+            this.body[i][1] = this.body[i-1][1];
+        }
+        //蛇首的x，y轴坐标this.body[0][0]，this.body[0][1]
+        switch (this.direction) {
+            case "right":
+                this.body[0][0] += 1;
+                break;
+            case "left":
+                this.body[0][0] -= 1;
+                break;
+            case "up":
+                this.body[0][1] -= 1;
+                break;
+            case "down":
+                this.body[0][1] += 1;
+                break;
+        }
+        //贪吃蛇吃食物时：1.当蛇首和食物的坐标重合时即表示吃到食物；2.贪吃蛇长度增加,往body中添加一个数组
+        if (this.body[0][0] == food.x && this.body[0][1] == food.y) {
+            var len = this.body.length;
+            var x = this.body[len-1][0];
+            var y = this.body[len-1][1];
+            this.body.push([x,y,'blue',null]);
+            this.num++;
+            ospan.innerHTML = this.num;
+            //食物要重置位置
+            food.init();
+        }
+        //判断是否结束：1.碰壁
+        if (this.body[0][0] < 0 || this.body[0][0] > 29 || this.body[0][1] < 0 || this.body[0][1] > 19) {
+            clearInterval(this.timer);
+            this.data[this.settings.index] = undefined;
+            alert("游戏结束,得分:"+this.num+"!");
+            for (var i = 0; i < this.body.length; i++){
+                this.map.removeChild(this.body[i][3])
+            }
+            this.body = [
+                //每一个数组代表一个单元格，即贪吃蛇的每一节
+                //数组[x轴坐标，y轴坐标，样式颜色，div]
+                [3,2,'red',null],
+                [2,2,'blue',null],
+                [1,2,'blue',null]
+            ];
+            this.direction = 'right';
+            this.num = 0;
+            ospan.innerHTML = this.num;
+            return
+        }
+        //游戏结束条件2：碰到自己的身子
+        for (var i = 1; i < this.body.length; i++) {
+            if (this.body[0][0]==this.body[i][0]&&this.body[0][1]==this.body[i][1]) {
+                clearInterval(this.timer);
+                this.data[this.settings.index] = undefined;
+                alert("游戏结束,得分:"+this.num+"!");
+                for (var i = 0; i < this.body.length; i++){
+                    this.map.removeChild(this.body[i][3])
+                }
+                this.body = [
+                    //每一个数组代表一个单元格，即贪吃蛇的每一节
+                    //数组[x轴坐标，y轴坐标，样式颜色，div]
+                    [3,2,'red',null],
+                    [2,2,'blue',null],
+                    [1,2,'blue',null]
+                ];
+                this.direction = 'right';
+                this.num = 0;
+                ospan.innerHTML = this.num;
+                return
+            }
+        }
+        this.show();
+    };
+    Snake.prototype.setDirect = function (keyCode) {
+        //w上：87 ；   s下：83 ；
+        //a左：65；    d右：68；
+        switch (keyCode) {
+            case 87:
+                if (this.body[0][1] - 1 == this.body[1][1]) {
+                    break;
+                }
+                this.direction = "up";
+                break;
+            case 83:
+                if (this.body[0][1] + 1 == this.body[1][1]) {
+                    break;
+                }
+                this.direction = "down";
+                break;
+            case 65:
+                if (this.body[0][0] - 1 == this.body[1][0]) {
+                    break;
+                }
+                this.direction = "left";
+                break;
+            case 68:
+                if (this.body[0][0] + 1 == this.body[1][0]) {
+                    break;
+                }
+                this.direction = "right";
+                break;
+        }
+    };
+    function extend(obj1, obj2) {
+        for (var attr in obj2) {
+            obj1[attr] = obj2[attr];
+        }
+    }
+    var map = new Map();
+    map.init();
+    var food = new Food();
+    food.init();
+    var sanke = new Snake();
+    obegin.onclick = function () {
+        sanke.run({
+            index:0
+        });
+    };
+    opause.onclick = function () {
+        clearInterval(sanke.timer);
+        sanke.data[sanke.settings.index] = undefined;
+    };
+</script>
+</body>
+</html>
