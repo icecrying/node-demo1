@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8fe06c4-256f-480f-873c-5d88bc11c728" name="默认更改列表" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1548413675">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="9" />
+          <entry key="html" value="19" />
+          <entry key="js" value="29" />
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="9" />
+          <entry key="HTML" value="19" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="145" />
+          <entry key="html" value="3798" />
+          <entry key="js" value="3854" />
+          <entry key="json" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="145" />
+          <entry key="HTML" value="3798" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="3854" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="207" column="48" lean-forward="true" selection-start-line="207" selection-start-column="48" selection-end-line="207" selection-end-column="48" />
+              <folding>
+                <element signature="e#818#2267#0" />
+                <element signature="e#2346#3466#0" />
+                <element signature="e#4097#5125#0" />
+                <element signature="e#5209#6147#0" />
+                <element signature="e#7837#7973#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/js/ajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1025">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-937">
+              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5075">
+              <caret line="203" column="22" lean-forward="true" selection-start-line="203" selection-start-column="22" selection-end-line="203" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/error.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysqltext.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/template/js/index.js" />
+        <option value="$PROJECT_DIR$/template/index.html" />
+        <option value="$PROJECT_DIR$/template/css/login.css" />
+        <option value="$PROJECT_DIR$/template/js/login.js" />
+        <option value="$PROJECT_DIR$/template/new.js" />
+        <option value="$PROJECT_DIR$/new.js" />
+        <option value="$PROJECT_DIR$/template/css/index.css" />
+        <option value="$PROJECT_DIR$/mysqltext.js" />
+        <option value="$PROJECT_DIR$/template/register.html" />
+        <option value="$PROJECT_DIR$/template/js/ajax.js" />
+        <option value="$PROJECT_DIR$/template/css/admin.css" />
+        <option value="$PROJECT_DIR$/template/login.html" />
+        <option value="$PROJECT_DIR$/template/test.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/template/admin.html" />
+        <option value="$PROJECT_DIR$/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="671" />
+    <option name="y" value="15" />
+    <option name="width" value="1231" />
+    <option name="height" value="1029" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ajax-shizhan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax-shizhan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax-shizhan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax-shizhan" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax-shizhan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax-shizhan" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax-shizhan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax-shizhan" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ajax-shizhan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajax-shizhan" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WS_node\ajax-shizhan" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WS_node\ajax-shizhan\template\css" />
+      <recent name="F:\WS_node\ajax-shizhan\template\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="admin.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ajax-shizhan/template/admin.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="02-ur和querystring模块.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="02-ur和querystring模块.js" working-dir="$PROJECT_DIR$/../dome">
+      <method v="2" />
+    </configuration>
+    <configuration name="ajax.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ajax.js" working-dir="$PROJECT_DIR$/template/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="mysqltext.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="mysqltext.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="Node.js.02-ur和querystring模块.js" />
+      <item itemvalue="Node.js.mysqltext.js" />
+      <item itemvalue="JavaScript Debug.admin.html" />
+      <item itemvalue="Node.js.ajax.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.ajax.js" />
+        <item itemvalue="JavaScript Debug.admin.html" />
+        <item itemvalue="Node.js.mysqltext.js" />
+        <item itemvalue="Node.js.02-ur和querystring模块.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8fe06c4-256f-480f-873c-5d88bc11c728" name="默认更改列表" comment="" />
+      <created>1538123879192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538123879192</updated>
+      <workItem from="1538123880394" duration="13059000" />
+      <workItem from="1539337294661" duration="1748000" />
+      <workItem from="1539869659604" duration="599000" />
+      <workItem from="1539924950987" duration="3588000" />
+      <workItem from="1539938594565" duration="917000" />
+      <workItem from="1539940346358" duration="6562000" />
+      <workItem from="1540015851287" duration="12797000" />
+      <workItem from="1540107641705" duration="10282000" />
+      <workItem from="1540197391756" duration="14773000" />
+      <workItem from="1541059624136" duration="1307000" />
+      <workItem from="1550686597107" duration="4223000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="69855000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="671" y="15" width="1231" height="1029" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15842414" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="调试" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/新建文件夹/螺钉课堂/第23章（静态资源渲染）/node+ajax案例源代码+文档/源码/02_静态资源渲染-ajax-shizhan/template/index-bak.html" />
+    <entry file="file://$USER_HOME$/Desktop/新建文件夹/螺钉课堂/第23章（静态资源渲染）/node+ajax案例源代码+文档/源码/02_静态资源渲染-ajax-shizhan/template/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/../Json_ajax/05_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Json_ajax/ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Json_ajax/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Json_ajax/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Json_ajax/02_用户名验证.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Json_ajax/05_post（后台）.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-687">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Json_ajax/04_用户名验证（post）.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dome/01-返回html页面.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dome/04_创建用户登录.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dome/03-发送数据.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dome/02-ur和querystring模块.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Json_ajax/01_json.js" />
+    <entry file="file://$PROJECT_DIR$/../Json_ajax/01_ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/simplecss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-937">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/error.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqltext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5075">
+          <caret line="203" column="22" lean-forward="true" selection-start-line="203" selection-start-column="22" selection-end-line="203" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="207" column="48" lean-forward="true" selection-start-line="207" selection-start-column="48" selection-end-line="207" selection-end-column="48" />
+          <folding>
+            <element signature="e#818#2267#0" />
+            <element signature="e#2346#3466#0" />
+            <element signature="e#4097#5125#0" />
+            <element signature="e#5209#6147#0" />
+            <element signature="e#7837#7973#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

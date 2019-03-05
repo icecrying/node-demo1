@@ -1,0 +1,19 @@
+{
+  "name": "ajax-shizhan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
